@@ -7,7 +7,6 @@
 
 body{
     background-color: rgb(240, 234, 210);
-    background-size: cover;
 }
 
 header{
@@ -89,7 +88,7 @@ main p{
     height: 500px;
 }
 
-.form{
+form{
     width: 500px;
     background-color: white;
     padding: 24px;
@@ -100,13 +99,14 @@ main p{
     text-align: center;
 }
 
-.box{
-    margin: 12px;
-    text-align: left;
+button{
+    background-color: black  !important;
+    border-color: black !important;
 }
 
-.button{
-    margin: 12px;
+button:hover{
+    background-color: white  !important;
+    color: black !important;
 }
 
 .mapa{
@@ -116,11 +116,13 @@ main p{
     margin: 50px;
 }
 
+
 footer{
     height: auto;
     width: 100%;
     background-color: rgb(221, 229, 182);
     text-align: center;
+    position: relative;
     bottom: 0;
     margin-top: 24px;
 }
@@ -133,41 +135,35 @@ footer h3 a{
     margin: 50px;
 }
 
+#if{
+    position: absolute;
+}
+
+
 @media (max-width:480px){
     header h1 a{
         font-size: 45px;
-        color: black;
-        text-decoration: none;
         font-weight: 400;
     }
     
     main h2{
         font-size: 30px;
-        color: black;
         font-weight: 400;
-        text-align: center;
-        margin: 24px;
     }
     
     main ul a{
         font-size: 25px;
-        color: black;
-        text-decoration: none;
         font-weight: 300;
-        text-align: center;
     }
 
     main p{
         font-size: 25px;
-        color: black;
         font-weight: 300;
-        text-align: center;
     }
     
     #museum{
         display: grid;
         grid-template-columns: 1fr;
-        place-items: center;
         margin: auto;
     }
 
@@ -177,33 +173,11 @@ footer h3 a{
         margin-top: 50px;
     }
 
-    .form{
-        width: 400px;
-        background-color: white;
-        padding: 24px;
-        margin: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        border-radius: 12px;
-        text-align: center;
-    }
-
-    .box{
-        margin: 12px;
-        text-align: left;
-        margin-left: auto;
-    }
-
-    .button{
-        margin: 12px;
-        margin-left: auto;
+    form{
+        width: 380px !important;
     }
 
     footer h3 a{
         font-size: 25px;
-        color: black;
-        text-decoration: none;
-        font-weight: 400;
-        margin: 50px;
     }
 }
