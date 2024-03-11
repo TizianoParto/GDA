@@ -91,10 +91,6 @@ main button {
   background-color: black !important;
   border-color: black !important;
 }
-main button:hover {
-  background-color: white !important;
-  color: black !important;
-}
 main .mapa {
   display: flex;
   justify-content: center;
