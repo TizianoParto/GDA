@@ -1,0 +1,41 @@
+@media (max-width:480px){
+    header h1 a{
+        font-size: 45px;
+        font-weight: 400;
+    }
+    
+    main h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    main ul a{
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    main p{
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    #museum{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+
+    .photo{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    form{
+        width: 380px !important;
+    }
+
+    footer h3 a{
+        font-size: 25px;
+    }
+}
