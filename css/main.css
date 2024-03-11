@@ -1,3 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: rgb(240, 234, 210);
+}
+
+header {
+  height: auto;
+  width: 100%;
+  background-color: rgb(173, 193, 120);
+  text-align: center;
+  margin-top: 2px;
+}
+header h1 a {
+  font-size: 64px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+header header h1 a:hover {
+  background-color: rgb(221, 229, 182);
+  border: 2px;
+  border-radius: 12px;
+  border-style: groove;
+}
+
+main h2 {
+  font-size: 48px;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  margin: 24px;
+}
+main #hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+main ul {
+  list-style: none;
+}
+main ul a {
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+}
+main .padre {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main .hijo {
+  margin: 24px;
+}
+main p {
+  font-size: 36px;
+  color: black;
+  font-weight: 300;
+  text-align: center;
+  margin: 24px;
+}
+main #museum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin: 50px;
+}
+main .photo {
+  width: 500px;
+  height: 500px;
+}
+main form {
+  width: 500px;
+  background-color: white;
+  padding: 24px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  text-align: center;
+}
+main button {
+  background-color: black !important;
+  border-color: black !important;
+}
+main button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+main .mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(221, 229, 182);
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  margin-top: 24px;
+}
+footer h3 a {
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 50px;
+}
+footer #if {
+  position: absolute;
+}
 
 /*# sourceMappingURL=main.css.map */
