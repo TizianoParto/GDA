@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
 }
 
 body {
+  min-height: 100vh;
   background-image: linear-gradient(135deg, #f0ead2, #dde5b6, #adc178, #a98467, #6c584c);
   background-size: 500%;
   animation: fanimado 10s infinite;
@@ -112,13 +112,12 @@ main .mapa {
 }
 
 footer {
-  height: auto;
+  position: sticky;
+  bottom: 0;
   width: 100%;
   background-color: #dde5b6;
+  padding: 20px;
   text-align: center;
-  position: relative;
-  bottom: 0;
-  margin-top: 24px;
 }
 footer h3 a {
   font-size: 36px;
@@ -126,9 +125,6 @@ footer h3 a {
   text-decoration: none;
   font-weight: 400;
   margin: 50px;
-}
-footer #if {
-  position: absolute;
 }
 
 @media (max-width: 480px) {

@@ -1,11 +1,10 @@
 footer{
-    height: auto;
+    position: sticky;
+    bottom: 0;
     width: 100%;
     background-color: #dde5b6;
+    padding: 20px;
     text-align: center;
-    position: relative;
-    bottom: 0;
-    margin-top: 24px;
 
     h3{
         a{
@@ -15,9 +14,5 @@ footer{
             font-weight: 400;
             margin: 50px;
         }
-    }
-
-    #if{
-        position: absolute;
     }
 }
